@@ -6,7 +6,7 @@ const bcrypt = require("bcrypt-nodejs");
 
 // BASE DE DATOS
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost:27017/VENTA_ONLINE_2020019', {useNewUrlParser:true,useUnifiedTopology:true}).then(()=>{
+mongoose.connect('mongodb://127.0.0.1:27017/VENTA_ONLINE_2020019', {useNewUrlParser:true,useUnifiedTopology:true}).then(()=>{
 
     console.log('Se encuentra conectado a la base de datos.');
 
